@@ -1,0 +1,25 @@
+# Dependencies
+node_modules/
+
+# Build artifacts
+contracts/out/
+contracts/cache/
+contracts/broadcast/
+app/.next/
+app/out/
+
+# Environment / secrets
+.env
+.env.local
+.env.production
+keeper/.env
+
+# Foundry
+contracts/foundry.lock
+
+# OS
+.DS_Store
+
+# IDE
+.vscode/
+.idea/
